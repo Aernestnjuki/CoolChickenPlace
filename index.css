@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: #fff; */
+}
+header .logo{
+    position: relative;
+    min-width: 80px;
+}
+header .logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+header ul{
+    display: flex;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    display: inline-block;
+    color: #333;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .textbox{
+    position: relative;
+    max-width: 600px;
+}
+.content .textbox h2{
+    color: #333;
+    font-size: 2.5em;
+    line-height: 1.3em;
+    font-weight: 500;
+}
+.content .textbox h2 span{
+    color: #017143;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+.content .textbox p{
+    color: #333;
+    margin-top: 10px;
+}
+.content .textbox p span{
+    color: crimson;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+.content .textbox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #017143;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.content .imgbox{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+    margin-top: 50px;
+}
+.content .imgbox img{
+    width: 400px;
+    height: 350px;
+    border-radius: 50px;
+}
+.swap{
+    position: absolute;
+    left: 40%;
+    bottom: 20px;
+    transform: translateX(-50);
+    display: flex;
+}
+.swap li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.swap li:hover{
+    transform: translateY(-15px );
+}
+.swap li img{
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+}
+.media{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.media li{
+    list-style: none;
+}
+.media li a{
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.6);
+    /* filter: invert(1); */
+}
+.media li a img{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #017143;
+    clip-path: circle(700px at right 800px);
+}
+.wrapper{
+    position: relative;
+    width: 100%;
+    padding: 0 100px;
+    font-family: 'ubuntu', sans-serif;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    align-items: center;
+    background: #fff;
+}
+.billboard{
+    width: 100%;
+    height: 50vh;
+}
+.card-section{
+    position: relative; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px 0 20px 0;
+}
+.wrapper h3{
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    font-weight: 500;
+    font-size: 1.5em;
+    margin: 20px;
+}
+.card{
+    box-shadow: 10px 5px;
+}
+.card img{
+    width: 250px;
+    height: 280px;
+}
